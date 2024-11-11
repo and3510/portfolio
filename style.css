@@ -55,7 +55,7 @@ html {
     width: 100%;
     background-color: black;
     height: calc(100vh - 100px);
-    background-image: url(blue.png);
+    background-image: url(images/blue.png);
     background-repeat: no-repeat;
     background-position: center; /* Centraliza a imagem */
     background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */

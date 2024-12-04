@@ -112,6 +112,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sobre img {
@@ -154,12 +155,16 @@ html {
     font-style: italic;
 }
 
+
+
 .project-list {
-    width: 50%;
+    width: 75%;
     margin-bottom: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 
@@ -243,7 +248,7 @@ footer p {
 
 @media (max-width: 1050px) {
     body {
-        color: red;
+        
     }
 
 }

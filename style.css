@@ -198,7 +198,6 @@ html {
 
 .project-item:hover .img-hover {
     opacity: 1;
-    border: 1px solid red;
 }
 
 .project-item:hover .img-normal {

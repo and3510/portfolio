@@ -18,7 +18,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Header */
+
 
 
 
@@ -58,8 +58,8 @@ html {
     height: calc(100vh - 100px);
     background-image: url(images/blue.png);
     background-repeat: no-repeat;
-    background-position: center; /* Centraliza a imagem */
-    background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
+    background-position: center; 
+    background-size: cover; 
     display: flex;
     align-items: center;
     padding-left: 10%;
@@ -198,6 +198,7 @@ html {
 
 .project-item:hover .img-hover {
     opacity: 1;
+    border: 1px solid red;
 }
 
 .project-item:hover .img-normal {
@@ -243,14 +244,5 @@ footer p {
     margin-left: 12px;
 }
 
-
-
-
-@media (max-width: 1050px) {
-    body {
-        
-    }
-
-}
 
 

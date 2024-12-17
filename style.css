@@ -266,5 +266,9 @@ footer p {
         margin: none;
         max-width: 100%;
     }
+
+    #home p {
+        font-size: 20px;
+    }
 }
 

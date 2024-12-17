@@ -244,4 +244,27 @@ footer p {
 }
 
 
+@media (max-width: 1300px)  {
+    .sobre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre img {
+        margin-top: 30px;
+        margin-right: 70px;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .sobre p {
+        font-size: 20px;
+    }
+
+    .sobre div {
+        margin: none;
+        max-width: 100%;
+    }
+}
 

@@ -49,72 +49,59 @@
 
     <section id="projetos" class="projetos">
 
-
-
         <h1>Meus Projetos</h1>
         <p>Conheça meus ultimos projetos</p>
 
+
+        <span id="project-details" class="info-span"></span>
+
+
         <div class="project-list">
-            <div class="project-item">
-                <a href="https://github.com/and3510/BIA_Project" target="_blank" rel="noopener noreferrer">
-                    <img src="images/image copy 2.png" alt="Projeto 1" class="img-normal">
-                    <img src="images/feedback.png" alt="Projeto 1 Hover" class="img-hover">
-                </a>
-            </div>
-            <div class="project-item">
-                <a href="https://github.com/and3510/SpaceBlog_Project" target="_blank" rel="noopener noreferrer">
-                    <img src="images/image copy 3.png" alt="Projeto 2" class="img-normal">
-                    <img src="images/image1.png" alt="Projeto 2 Hover" class="img-hover">
-                </a>
-                
-            </div>
-            <div class="project-item">
-                <a href="https://github.com/and3510/Clinimagem_Project" target="_blank" rel="noopener noreferrer">
-                    <img src="images/image copy 8.png" alt="Projeto 2" class="img-normal">
-                    <img src="images/image copy 9.png" alt="Projeto 2 Hover" class="img-hover">
-                </a>
-                
-            </div>
+            <button class="project-item" data-info="BIA - Bot Inteligente Academico|Chatbot universitário que ajuda os alunos a acessarem informações de forma rápida e precisa.|https://github.com/and3510/BIA_Project|images/feedback.png">
+                <img src="images/image copy 2.png" alt="Projeto 1" class="img-normal">
+                <img src="images/feedback.png" alt="Projeto 1 Hover" class="img-hover">
+            </button>
+            <button class="project-item" data-info="Galleria - Plataforma de Fotos|É uma plataforma de fotos que oferece uma experiência interativa, intuitiva e segura, facilitando o armazenamento e o compartilhamento de fotos de forma prática e confiável.|https://github.com/and3510/Galleria_Project|images/image copy 11.png">
+                <img src="images/image copy 10.png" alt="Projeto 3" class="img-normal">
+                <img src="images/image copy 11.png" alt="Projeto 3 Hover" class="img-hover">
+            </button>
+
+            <button class="project-item" data-info="Bot Clinica - Atendimento via Bot para Clínica|Chatbot para Atendimento de uma clinica,para atendimento e obter informações de forma rápida e precisa.|https://github.com/and3510/BIA_Project|images/image copy 9.png">
+                <img src="images/image copy 8.png" alt="Projeto 2" class="img-normal">
+                <img src="images/image copy 9.png" alt="Projeto 2 Hover" class="img-hover">
+            </button>
         </div>
 
         <div class="project-list">
-            <div class="project-item">
-            <a href="https://github.com/and3510/AppAutismo_Project" target="_blank" rel="noopener noreferrer">
+            <button class="project-item" data-info="Autism Game - Um projeto inovador para análise de dados|O aplicativo foi criado para ajudar crianças com Transtorno do Espectro Autista (TEA) a aprender de forma divertida e adaptada às suas necessidades.|https://github.com/and3510/AppAutismo_Project|images/image copy.png">
                 <img src="images/image copy 4.png" alt="Projeto 1" class="img-normal">
                 <img src="images/image copy.png" alt="Projeto 1 Hover" class="img-hover">
-            </a>
-            </div>
-            <div class="project-item">
-            <a href="https://github.com/and3510/Alarme_Quedas_Project" target="_blank" rel="noopener noreferrer">
+            </button>
+            <button class="project-item" data-info="Fall Alert System - Sistema de detecção de quedas.|Tecnologia Vestível para Idosos Protótipo Eletrônico de Detecção de Quedas|https://github.com/and3510/Alarme_Quedas_Project|images/image.png">
                 <img src="images/image copy 5.png" alt="Projeto 3" class="img-normal">
                 <img src="images/image.png" alt="Projeto 3 Hover" class="img-hover">
-            </a>
-            </div>
-            <div class="project-item">
-                <a href="https://github.com/and3510/PrimeFlix_Project" target="_blank" rel="noopener noreferrer">
-                    <img src="images/image copy 6.png" alt="Projeto 3" class="img-normal">
-                    <img src="images/image copy 7.png" alt="Projeto 3 Hover" class="img-hover">
-                </a>
-            </div>
+            </button>
+            <button class="project-item" data-info="PrimeFlix - Plataforma de Filmes.|ChatGPT
 
-
-
-        </div>
-
-        <div class="project-list">
-
-            <div class="project-item">
-                <a href="https://github.com/and3510/Galleria_Project" target="_blank" rel="noopener noreferrer">
-                    <img src="images/image copy 10.png" alt="Projeto 3" class="img-normal">
-                    <img src="images/image copy 11.png" alt="Projeto 3 Hover" class="img-hover">
-                </a>
-            </div>
-
+            PrimeFlix é uma plataforma de filmes que permite explorar, ver detalhes e criar listas de favoritos, com dados sempre atualizados para uma experiência completa.|https://github.com/and3510/PrimeFlix_Project|images/image copy 7.png">
+                <img src="images/image copy 6.png" alt="Projeto 3" class="img-normal">
+                <img src="images/image copy 7.png" alt="Projeto 3 Hover" class="img-hover">
+            </button>
         </div>
 
 
-        <!-- <button class="action"> Faça um orçamento</button> -->
-        
+    
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2 id="modal-title">Título do Projeto</h2>
+                <img id="modal-image" src="" alt="Imagem do Projeto" style="max-width: 100%; height: auto;">
+                <p id="modal-description">Descrição do projeto.</p>
+                <a id="modal-link" href="#" target="_blank">Saiba mais</a>
+            </div>            
+        </div>
+
+
     </section>
 
 
@@ -128,6 +115,45 @@
         <p>Instagram: and.dovale</p>
 
     </footer>
-    
+
+
+    <script>
+        const projects = document.querySelectorAll('.project-item');
+        const modal = document.getElementById('modal');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalLink = document.getElementById('modal-link');
+        const closeModal = document.getElementById('close-modal');
+
+        projects.forEach((project) => {
+            project.addEventListener('click', () => {
+                const info = project.dataset.info.split('|');
+                modalTitle.textContent = info[0]; // Título do projeto
+                modalDescription.textContent = info[1]; // Descrição do projeto
+                modalLink.href = info[2]; // Link para o GitHub
+                modalLink.textContent = "Acesse o projeto no GitHub"; // Texto do link
+                const modalImage = document.getElementById('modal-image'); // Seleciona a imagem do modal
+                modalImage.src = info[3]; // Caminho da imagem
+                modalImage.alt = `Imagem do projeto ${info[0]}`; // Texto alternativo da imagem
+                modal.style.display = 'flex';
+            });
+        });
+
+
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>

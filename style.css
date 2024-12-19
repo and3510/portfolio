@@ -326,3 +326,13 @@ footer p {
     }
 }
 
+
+
+#modal-video {
+    border-radius: 5px;
+    margin-bottom: 16px;
+    max-width: 90%;
+    height: auto;
+    object-fit: cover; /* Para ajustar o vídeo sem distorção */
+    box-shadow: 1px 2px 4px #181818;
+}

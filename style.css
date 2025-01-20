@@ -322,6 +322,19 @@ footer p {
     }
 }
 
+#habilidades {
+    background-color: #c4c4c4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.habilidades p {
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.habilidades
+
 
 
 #modal-video {

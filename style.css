@@ -178,6 +178,33 @@ html {
     margin-bottom: 14px;
 }
 
+.study {
+    background-color: #b6b6b6;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-top: 5%;
+}
+
+
+.topicos {
+    background-color: #b6b6b6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+
+.topicos h2 {
+    margin-bottom: 20px;
+}
+
+.topicos div {
+    margin: 20px;
+}
+
 .projetos {
     background-color: #fff;
     width: 100%;
@@ -187,6 +214,8 @@ html {
     justify-content: center;
     padding: 80px 0;
 }
+
+
 
 .projetos h2 {
     font-size: 22px;
@@ -319,6 +348,14 @@ footer p {
 
     #home p {
         font-size: 20px;
+    }
+
+    .nav-list a {
+        font-size: 15px;
+    }
+
+    .topicos {
+        flex-wrap: wrap;
     }
 }
 

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kavoon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -45,84 +46,137 @@
     <section id="sobre" class="sobre">
         <div>
             <h1>Sobre</h1>
-            <p style="text-align: justify;">Meu nome é Anderson e sou estudante de Engenharia de Software. Estou sempre em busca de novas oportunidades de aprendizado e desenvolvimento na área. Tenho um forte interesse em arquitetura de sistemas, segurança da informação, servidores e desenvolvimento web. Acredito que a combinação dessas disciplinas é fundamental para criar soluções tecnológicas robustas e eficientes.</p>
+            <p style="text-align: justify;">Meu nome é Anderson e sou estudante de Engenharia de Software. Estou sempre em busca de novas oportunidades de aprendizado e desenvolvimento na área. Tenho um forte interesse em DevOps, segurança da informação, servidores e desenvolvimento web. Acredito que a combinação dessas disciplinas é fundamental para criar soluções tecnológicas robustas e eficientes.</p>
             <br><br>
-            <p style="text-align: justify;"> Estou animado para aplicar meu conhecimento em projetos práticos e contribuir para inovações que façam a diferença no mundo digital.</p>
+            <p style="text-align: justify;">Estou animado para aplicar meu conhecimento em projetos práticos e contribuir para inovações que façam a diferença no mundo digital.</p>
         </div>
         <img src="images/duck.jpeg" alt="" style="width: 450px; height: 470px;">
 
     </section>
 
 
-    <section id="study" class="study">
+
+</section>
+
+<section id="study" class="study">
+    <div>
+        <h1 style="text-align: center;">Meus Estudos</h1>
+        <p style="text-align: center;">Áreas de conhecimento nas quais estou me aprofundando atualmente</p>
+    </div>
+
+    <div class="topicos">
+        <div>
+            <h2 style="text-align: justify;">Redes</h2>
+            <p style="text-align: justify;">
+                Estudo redes com livros como "Redes de Computadores" de Tanenbaum, cursos de protocolos e segurança, além de ferramentas como Wireshark e PacketTracer para análise, simulação e configuração prática de VPNs, roteadores e switches.
+            </p>
+        </div>
 
         <div>
-            <h1 style="text-align: center;">Meus Estudos</h1>
-            <p style="text-align: center;">Áreas de conhecimento nas quais estou me aprofundando atualmente</p>
+            <h2 style="text-align: justify;">DevOps</h2>
+            <p style="text-align: justify;">
+                Estou aprofundando conhecimentos em DevOps estudando integração contínua, entrega contínua (CI/CD), containers com Docker, orquestração com Kubernetes e ferramentas clássicas como Jenkins, GitLab CI/CD, Ansible e Terraform, aplicando boas práticas de automação e monitoramento em projetos reais.
+            </p>
         </div>
-        
-        <div class="topicos">
-    
-            <div>
-                <h2 style="text-align: justify;">Redes</h2>
-                <p style="text-align: justify;">
-                    Estudo redes com livros como "Redes de Computadores" de Tanenbaum, cursos de protocolos e segurança, além de ferramentas como Wireshark e PacketTracer para análise, simulação e configuração prática de VPNs, roteadores e switches.
-                </p>
-            </div>
-        
-            <div>  
-                <h2 style="text-align: justify;">Arquitetura</h2>
-                <p style="text-align: justify;">
-                    Exploro padrões como MVC e microservices com "Clean Architecture" de Robert C. Martin, cursos e ferramentas como PlantUML e Lucidchart, aplicando princípios como SOLID em projetos escaláveis.
-                </p>
-            </div>
-        
-            <div>
-                <h2 style="text-align: justify;">Programação</h2>
-                <p style="text-align: justify;">
-                    Aprofundo-me em programação com livros como "Automate the Boring Stuff with Python", cursos práticos e ferramentas como VS Code, GitHub e Postman para desenvolvimento web, automações e integração de APIs.
-                </p>
-            </div>
-    
+
+        <div>
+            <h2 style="text-align: justify;">Programação</h2>
+            <p style="text-align: justify;">
+                Aprofundo-me em programação com livros como "Automate the Boring Stuff with Python", cursos práticos e ferramentas como VS Code, GitHub e Postman para desenvolvimento web, automações e integração de APIs.
+            </p>
         </div>
-    
-    </section>
+    </div>
+</section>
+
+
+
         
 
 
-    <section id="habilidades" class="habilidades">
-        <div style="text-align: center;">
-            <h1>Habilidades</h1>
-            <p>As tecnologias e ferramentas com as quais possuo mais experiência</p>
+<section id="habilidades" class="habilidades">
 
-            
-            
+  <!-- LINGUAGENS DE PROGRAMAÇÃO -->
+  <div style="text-align: center;">
+    <h1>Linguagens de Programação</h1>
+    <p>As linguagens que mais utilizo no desenvolvimento de software</p>
 
-            <img 
-                src="https://skillicons.dev/icons?i=github,typescript,javascript,react,python,html,css,linux,ubuntu,firebase,windows,postman,flutter,git,docker,figma,vscode" 
-                alt="Ícones das tecnologias: GitHub, TypeScript, JavaScript,react, Python, HTML, CSS, Linux, Ubuntu, Postman, Git, Docker e Figma"
-                style="min-width: 90%; max-width: 100%; height: auto;  margin: 0 auto;" />
+    <div class="grid-icons">
+      <div class="icon"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript"><span>TypeScript</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript"><span>JavaScript</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=java" alt="Java"><span>Java</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=dart" alt="Dart"><span>Dart</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=bash" alt="Bash"><span>Bash</span></div>
+    </div>
+  </div>
 
-        </div>
-    
-        <br> </br>
-        <br> </br>
-    
-        <div style="text-align: center;">
-            <h1>Conhecimento</h1>
-            <p>As tecnologias com os quais já tive contato e adquiri conhecimento</p>
-            
-            
+  <br><br>
 
-    
-            <img 
-                src="https://skillicons.dev/icons?i=gitlab,kali,bash,django,arduino,mysql,java,nginx,dart,postgres,idea,redis,rabbitmq" 
-                alt="Ícones das tecnologias: GitHub, TypeScript, JavaScript, Python, HTML, CSS, Linux, Ubuntu, Postman, Git, Docker e Figma"
-                style="min-width: 80%; max-width: 100%; height: auto; display: block; margin: 0 auto;" />
-        </div>
+  <!-- FRAMEWORKS E BIBLIOTECAS -->
+  <div style="text-align: center;">
+    <h1>Frameworks e Bibliotecas</h1>
+    <p>Principais frameworks e bibliotecas com os quais trabalho</p>
 
+    <div class="grid-icons">
+      <div class="icon"><img src="https://skillicons.dev/icons?i=react" alt="React"><span>React</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=django" alt="Django"><span>Django</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=flutter" alt="Flutter"><span>Flutter</span></div>
+    </div>
+  </div>
 
-    </section>
+  <br><br>
+
+  <!-- FERRAMENTAS E PLATAFORMAS -->
+  <div style="text-align: center;">
+    <h1>Ferramentas e Plataformas</h1>
+    <p>Ambientes, ferramentas e plataformas que utilizo no dia a dia</p>
+
+    <div class="grid-icons">
+      <div class="icon"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"><span>GitHub</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=gitlab" alt="GitLab"><span>GitLab</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=postman" alt="Postman"><span>Postman</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"><span>Firebase</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=figma" alt="Figma"><span>Figma</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=vscode" alt="VSCode"><span>VSCode</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=idea" alt="IntelliJ IDEA"><span>IntelliJ IDEA</span></div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <!-- SISTEMAS OPERACIONAIS E INFRAESTRUTURA -->
+  <div style="text-align: center;">
+    <h1>Sistemas Operacionais e Infraestrutura</h1>
+    <p>Ambientes e tecnologias relacionados à administração e servidores</p>
+
+    <div class="grid-icons">
+      <div class="icon"><img src="https://skillicons.dev/icons?i=linux" alt="Linux"><span>Linux</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu"><span>Ubuntu</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux"><span>Kali</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=windows" alt="Windows"><span>Windows</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=nginx" alt="Nginx"><span>Nginx</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"><span>PostgreSQL</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=redis" alt="Redis"><span>Redis</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ"><span>RabbitMQ</span></div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <!-- DEVOPS TOOLS -->
+  <div style="text-align: center;">
+    <h1>DevOps Tools</h1>
+    <p>Ferramentas e tecnologias que utilizo ou estudo para DevOps</p>
+
+    <div class="grid-icons">
+      <div class="icon"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"><span>Docker</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes"><span>Kubernetes</span></div>
+      <div class="icon"><img src="https://skillicons.dev/icons?i=ansible" alt="Ansible"><span>Ansible</span></div>
+    </div>
+  </div>
+
+</section>
 
 
 
@@ -136,30 +190,30 @@
 
 
         <div class="project-list">
-            <button class="project-item" data-info="BIA - Bot Inteligente Academico|Chatbot universitário que ajuda os alunos a acessarem informações de forma rápida e precisa.|https://github.com/and3510/BIA_Project|images/teste_bia.webm">
+            <button class="project-item" data-info="BIA - Bot Inteligente Academico|Chatbot universitário que ajuda os alunos a acessarem informações de forma rápida e precisa.|https://github.com/and3510/BIA_Project|https://minio.ajvale.com.br/portfolio-anderson/teste_bia.webm">
                 <img src="images/image copy 2.png" alt="Projeto 1" class="img-normal">
                 <img src="images/feedback.png" alt="Projeto 1 Hover" class="img-hover">
             </button>
-            <button class="project-item" data-info="ENEM Trainer - Chatbot para Treino de Estudantes com Questões do ENEM|O Chatbot ENEM Trainer é uma ferramenta interativa criada para ajudar estudantes a se prepararem para o Exame Nacional do Ensino Médio (ENEM). Com a ajuda da API ENEM de Yunger7, o chatbot oferece uma experiência de estudo personalizada, prática e eficiente, tornando o aprendizado mais fácil e dinâmico.|https://github.com/and3510/EnemChatbot_Project|images/teste_enem.webm">
+            <button class="project-item" data-info="ENEM Trainer - Chatbot para Treino de Estudantes com Questões do ENEM|O Chatbot ENEM Trainer é uma ferramenta interativa criada para ajudar estudantes a se prepararem para o Exame Nacional do Ensino Médio (ENEM). Com a ajuda da API ENEM de Yunger7, o chatbot oferece uma experiência de estudo personalizada, prática e eficiente, tornando o aprendizado mais fácil e dinâmico.|https://github.com/and3510/EnemChatbot_Project|https://minio.ajvale.com.br/portfolio-anderson/teste_enem.webm">
                 <img src="images/image copy 12.png" alt="Projeto 1" class="img-normal">
                 <img src="images/enem_Chabot.png" alt="Projeto 1 Hover" class="img-hover">
             </button>
-            <button class="project-item" data-info="Bot Clinica - Atendimento via Bot para Clínica|Chatbot para Atendimento de uma clinica,para atendimento e obter informações de forma rápida e precisa.|https://github.com/and3510/Clinimagem_Project|images/teste.mp4">
+            <button class="project-item" data-info="Bot Clinica - Atendimento via Bot para Clínica|Chatbot para Atendimento de uma clinica,para atendimento e obter informações de forma rápida e precisa.|https://github.com/and3510/Clinimagem_Project|https://minio.ajvale.com.br/portfolio-anderson/teste.mp4">
                 <img src="images/image copy 8.png" alt="Projeto 2" class="img-normal">
                 <img src="images/image copy 9.png" alt="Projeto 2 Hover" class="img-hover">
             </button>
         </div>
 
         <div class="project-list">
-            <button class="project-item" data-info="Autism Game - Um projeto de jogo para autistas|O aplicativo foi criado para ajudar crianças com Transtorno do Espectro Autista (TEA) a aprender de forma divertida e adaptada às suas necessidades.|https://github.com/and3510/AppAutismo_Project|images/teste_memory.webm">
+            <button class="project-item" data-info="Autism Game - Um projeto de jogo para autistas|O aplicativo foi criado para ajudar crianças com Transtorno do Espectro Autista (TEA) a aprender de forma divertida e adaptada às suas necessidades.|https://github.com/and3510/AppAutismo_Project|https://minio.ajvale.com.br/portfolio-anderson/teste_memory.webm">
                 <img src="images/image copy 4.png" alt="Projeto 1" class="img-normal">
                 <img src="images/image copy.png" alt="Projeto 1 Hover" class="img-hover">
             </button>
-            <button class="project-item" data-info="Galleria - Plataforma de Fotos|É uma plataforma de fotos que oferece uma experiência interativa, intuitiva e segura, permitindo que um fotógrafo compartilhe seu portfólio de maneira prática e confiável. Os visitantes podem visualizar as fotos e entrar em contato diretamente com o fotógrafo.|https://github.com/and3510/Galleria_Project|images/teste_galeria.webm">
+            <button class="project-item" data-info="Galleria - Plataforma de Fotos|É uma plataforma de fotos que oferece uma experiência interativa, intuitiva e segura, permitindo que um fotógrafo compartilhe seu portfólio de maneira prática e confiável. Os visitantes podem visualizar as fotos e entrar em contato diretamente com o fotógrafo.|https://github.com/and3510/Galleria_Project|https://minio.ajvale.com.br/portfolio-anderson/teste_galeria.webm">
                 <img src="images/image copy 10.png" alt="Projeto 3" class="img-normal">
                 <img src="images/image copy 11.png" alt="Projeto 3 Hover" class="img-hover">
             </button>
-            <button class="project-item" data-info="PrimeFlix - Plataforma de Filmes.|PrimeFlix é uma plataforma de filmes que permite explorar, ver detalhes e criar listas de favoritos, com dados sempre atualizados para uma experiência completa.|https://github.com/and3510/PrimeFlix_Project|images/teste_primeflix.webm">
+            <button class="project-item" data-info="PrimeFlix - Plataforma de Filmes.|PrimeFlix é uma plataforma de filmes que permite explorar, ver detalhes e criar listas de favoritos, com dados sempre atualizados para uma experiência completa.|https://github.com/and3510/PrimeFlix_Project|https://minio.ajvale.com.br/portfolio-anderson/teste_primeflix.webm">
                 <img src="images/image copy 6.png" alt="Projeto 3" class="img-normal">
                 <img src="images/image copy 7.png" alt="Projeto 3 Hover" class="img-hover">
             </button>
@@ -167,11 +221,11 @@
 
 
         <div class="project-list">
-            <button class="project-item" data-info="Fall Alert System - Sistema de detecção de quedas.|Tecnologia Vestível para Idosos Protótipo Eletrônico de Detecção de Quedas|https://github.com/and3510/Alarme_Quedas_Project|images/teste_arduino.mp4">
+            <button class="project-item" data-info="Fall Alert System - Sistema de detecção de quedas.|Tecnologia Vestível para Idosos Protótipo Eletrônico de Detecção de Quedas|https://github.com/and3510/Alarme_Quedas_Project|https://minio.ajvale.com.br/portfolio-anderson/teste_arduino.mp4">
                 <img src="images/image copy 5.png" alt="Projeto 3" class="img-normal">
                 <img src="images/image.png" alt="Projeto 3 Hover" class="img-hover">
             </button>
-            <button class="project-item" data-info="CurrencyTrainer - Plataforma de visualização em tempo real para preços de criptomoedas.|Plataforma web para monitoramento de criptomoedas em tempo real, oferecendo informações detalhadas como nome da moeda, valor de mercado, preço atual, volume de transações e variação percentual nas últimas 24 horas.|https://github.com/and3510/CurrencyTracker_Project|images/teste_cripto.webm">
+            <button class="project-item" data-info="CurrencyTrainer - Plataforma de visualização em tempo real para preços de criptomoedas.|Plataforma web para monitoramento de criptomoedas em tempo real, oferecendo informações detalhadas como nome da moeda, valor de mercado, preço atual, volume de transações e variação percentual nas últimas 24 horas.|https://github.com/and3510/CurrencyTracker_Project|https://minio.ajvale.com.br/portfolio-anderson/teste_cripto.webm">
                 <img src="images/image copy 13.png" alt="Projeto 3" class="img-normal">
                 <img src="images/Screenshot from 2025-01-07 18-26-49.png" alt="Projeto 3 Hover" class="img-hover">
             </button>
@@ -213,47 +267,5 @@
 
 
 
-    <script>
-        const projects = document.querySelectorAll('.project-item');
-        const modal = document.getElementById('modal');
-        const modalTitle = document.getElementById('modal-title');
-        const modalDescription = document.getElementById('modal-description');
-        const modalLink = document.getElementById('modal-link');
-        const closeModal = document.getElementById('close-modal');
-
-        projects.forEach((project) => {
-            project.addEventListener('click', () => {
-                const info = project.dataset.info.split('|');
-                modalTitle.textContent = info[0]; // Título do projeto
-                modalDescription.textContent = info[1]; // Descrição do projeto
-                modalLink.href = info[2]; // Link para o GitHub
-                modalLink.textContent = "Acesse o projeto no GitHub"; // Texto do link
-                
-                const modalVideo = document.getElementById('modal-video'); // Seleciona o vídeo do modal
-                const modalSource = modalVideo.querySelector('source'); // Seleciona o <source> dentro do vídeo
-                modalSource.src = info[3]; // Caminho do vídeo
-                modalVideo.load(); // Carrega o novo vídeo
-
-                modal.style.display = 'flex';
-            });
-        });
-
-
-
-
-        closeModal.addEventListener('click', () => {
-            modal.style.display = 'none';
-        });
-
-        window.addEventListener('click', (event) => {
-            if (event.target === modal) {
-                modal.style.display = 'none';
-            }
-        });
-
-        function scrollToSection(id) {
-            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
 </body>
 </html>
